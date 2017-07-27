@@ -1,0 +1,27 @@
+{
+  "name": "whois-lookup-parser",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "whois",
+    "parser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangweijie-cn/whois-lookup-parser.git"
+  },
+  "homepage": "https://github.com/zhangweijie-cn/whois-lookup-parser",
+  "scripts": {
+    "build": "tsc -d",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "camel-case": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.17",
+    "typescript": "^2.4.2"
+  }
+}
